@@ -1,0 +1,142 @@
+
+body{
+    font-family: "Montserrat";
+}
+
+#title{
+    background-color: cornflowerblue;
+}
+#features{
+    background-color: white;
+    padding: 7% 15%;
+}
+#testimonials{
+    background-color: lightblue;
+    padding: 7% 15%;
+    text-align: center;
+    color: white;
+}
+#press{
+    background-color: lightblue;
+    text-align: center;
+    padding-bottom: 2%;
+}
+#pricing{
+    padding-top: 5%;
+}
+#footer{
+    text-align: center;
+}
+#cta{
+    background-color: lightblue;
+    text-align: center;
+}
+h1 {  color:cornsilk;
+    font-family: 'Montserrat, sans-serif'; 
+     font-size: 3.5rem;  line-height: 1.5;  
+     font-weight: 900;}
+
+h2 {
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 8%;
+}     
+     
+.container-fluid{
+
+    padding: 3% 15%;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family:'Ubuntu';
+    font-weight: bold;
+    padding-right: 40rem;
+}
+
+.navbar{
+    padding-bottom: 4rem;
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.btt{
+    margin: 5% 3% 5% 0;
+}
+
+.tit_img{
+    width: 65%;
+    transform: rotate(10deg);
+    padding-left: 8%;
+}
+.pic{
+        width: 10%;
+        border-radius: 100%;
+        margin: 20px;
+      
+}
+.feature-box{
+    text-align: center;
+    padding: 4.5%
+}
+.fp{
+    color: #8f8f8f;
+    font-size: small;
+}
+.icon{
+    padding-bottom: 2%;
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+.logo{
+    width: 5%;
+    margin: 20px 20px 50px;
+}
+.bk{
+    color: black;
+}
+.last{
+    color: whitesmoke;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.clr{
+    color: goldenrod;
+}
+.p-col{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.upr{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+@media (max-width: 1280px ){
+    #title{
+        text-align: center;
+    }
+    .tit_img{
+        padding-top: 8%;
+        position: static;
+        transform: rotate(0);
+    }
+}
